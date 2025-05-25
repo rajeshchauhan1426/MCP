@@ -1,0 +1,17 @@
+{
+  "name": "zerodha",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ws": "^8.18.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "kiteconnect": "^5.0.1",
+    "websocket": "^1.0.35"
+  }
+}
